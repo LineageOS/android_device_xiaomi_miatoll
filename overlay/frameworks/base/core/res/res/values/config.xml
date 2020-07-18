@@ -322,10 +322,10 @@
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
 
     <!-- Fast brightness animation ramp rate in brightness units per second-->
-    <integer name="config_brightness_ramp_rate_fast">4933</integer>
+    <integer name="config_brightness_ramp_rate_fast">308</integer>
 
     <!-- Slow brightness animation ramp rate in brightness units per second-->
-    <integer name="config_brightness_ramp_rate_slow">3946</integer>
+    <integer name="config_brightness_ramp_rate_slow">246</integer>
 
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
