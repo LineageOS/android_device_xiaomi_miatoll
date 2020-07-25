@@ -7,3 +7,6 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
 
 on init && property:ro.boot.product.hardware.sku=nfc
     start vendor.nfc_hal_service
+
+on post-fs-data && property:ro.boot.product.hardware.sku=nfc
+    mkdir /data/vendor/nfc 0770 nfc nfc
