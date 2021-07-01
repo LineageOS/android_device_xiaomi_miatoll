@@ -1,0 +1,43 @@
+# All unpinned blobs below are extracted from joyeuse-user 11 RKQ1.200826.002 V12.0.1.0.RJZMIXM release-keys
+
+# Camera sensors (curtana & gram) - from curtana - RKQ1.200826.002/V12.0.4.0.RJWMIXM
+vendor/lib/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|4687d1d2eb8d36b5bed2ceafb197ef21d22bd97e
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|5ebb58c43e95d598f35a0808a0497f51affdcbd6
+vendor/lib/camera/com.qti.sensormodule.sunny_imx582.bin|0b0d77edf59fe95073c16ed8698a00e7b5a5ed3c
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgm2.bin|c92b87076645f2049507211ac09c99a0e54119d3
+vendor/lib/camera/com.qti.tuned.ofilm_gc02m1.bin|fdcb7bcb026f889b002d0b2b787053c161e54064
+vendor/lib/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|fdcb7bcb026f889b002d0b2b787053c161e54064
+vendor/lib/camera/com.qti.tuned.ofilm_s5kgm2.bin|8b15943a79f9d82d7ceb6055da2700b89bb29b7d
+vendor/lib/camera/com.qti.tuned.sunny_imx582.bin|a43b96a3d4b361a388c89fba46cdf0409d33da17
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|4687d1d2eb8d36b5bed2ceafb197ef21d22bd97e
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|5ebb58c43e95d598f35a0808a0497f51affdcbd6
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin|0b0d77edf59fe95073c16ed8698a00e7b5a5ed3c
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin|c92b87076645f2049507211ac09c99a0e54119d3
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin|fdcb7bcb026f889b002d0b2b787053c161e54064
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|fdcb7bcb026f889b002d0b2b787053c161e54064
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin|8b15943a79f9d82d7ceb6055da2700b89bb29b7d
+vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin|a43b96a3d4b361a388c89fba46cdf0409d33da17
+
+# Camera sensors (excalibur & joyeuse)
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
+vendor/lib/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin
+vendor/lib/camera/com.qti.tuned.sunny_gc02m1.bin
+vendor/lib/camera/com.qti.tuned.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin
+vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin
+
+# Camera sensors (excalibur) - from excalibur - RKQ1.200826.002/V12.0.1.0.RJXINXM
+vendor/lib/camera/com.qti.sensormodule.sunny_ov32a1q.bin|a6f8e2da547f15d315412f81c58d4ba6888641d5
+vendor/lib/camera/com.qti.tuned.sunny_ov32a1q.bin|47e72f5f6dbdaf27eea339f2a1896db55b343b62
+vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|a6f8e2da547f15d315412f81c58d4ba6888641d5
+vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|47e72f5f6dbdaf27eea339f2a1896db55b343b62
+
+# Camera sensors (joyeuse)
+vendor/lib/camera/com.qti.tuned.ofilm_s5kgw1.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
