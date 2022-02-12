@@ -17,4 +17,12 @@
 -->
 <resources>
     <dimen name="rounded_corner_content_padding">16dp</dimen>
+
+    <!-- Location on the screen of the center of the physical power button. -->
+    <dimen name="physical_power_button_center_screen_location_y">760px</dimen>
+
+    <!-- Location on the screen of the center of the fingerprint sensor. -->
+    <dimen name="physical_fingerprint_sensor_center_screen_location_x">1080px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">760px</dimen>
+
 </resources>
