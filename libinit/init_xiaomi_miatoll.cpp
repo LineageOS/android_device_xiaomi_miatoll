@@ -15,8 +15,7 @@ static const variant_info_t curtanain_info = {
     .brand = "Redmi",
     .device = "curtana",
     .model = "Redmi Note 9 Pro",
-    .build_description = "curtana-user 11 RKQ1.200826.002 V12.5.2.0.RJWINXM release-keys",
-    .build_fingerprint = "Redmi/curtana/curtana:11/RKQ1.200826.002/V12.5.2.0.RJWINXM:user/release-keys",
+    .build_fingerprint = "Redmi/curtana/curtana:11/RKQ1.200826.002/V12.5.5.0.RJWINXM:user/release-keys",
 
     .nfc = false,
 };
@@ -27,8 +26,7 @@ static const variant_info_t curtana_info = {
     .brand = "Redmi",
     .device = "curtana",
     .model = "Redmi Note 9S",
-    .build_description = "curtana_global-user 11 RKQ1.200826.002 V12.5.1.0.RJWMIXM release-keys",
-    .build_fingerprint = "Redmi/curtana_global/curtana:11/RKQ1.200826.002/V12.5.1.0.RJWMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/curtana_global/curtana:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys",
 
     .nfc = false,
 };
@@ -39,8 +37,7 @@ static const variant_info_t excalibur_info = {
     .brand = "Redmi",
     .device = "excalibur",
     .model = "Redmi Note 9 Pro Max",
-    .build_description = "excalibur_in-user 11 RKQ1.200826.002 V12.5.3.0.RJXINXM release-keys",
-    .build_fingerprint = "Redmi/excalibur_in/excalibur:11/RKQ1.200826.002/V12.5.3.0.RJXINXM:user/release-keys",
+    .build_fingerprint = "Redmi/excalibur_in/excalibur:11/RKQ1.200826.002/V12.5.6.0.RJXINXM:user/release-keys",
 
     .nfc = false,
 };
@@ -51,8 +48,7 @@ static const variant_info_t gram_info = {
     .brand = "POCO",
     .device = "gram",
     .model = "POCO M2 Pro",
-    .build_description = "gram_in-user 11 RKQ1.200826.002 V12.5.2.0.RJPINXM release-keys",
-    .build_fingerprint = "POCO/gram_in/gram:11/RKQ1.200826.002/V12.5.2.0.RJPINXM:user/release-keys",
+    .build_fingerprint = "POCO/gram_in/gram:11/RKQ1.200826.002/V12.5.3.0.RJPINXM:user/release-keys",
 
     .nfc = false,
 };
@@ -63,8 +59,7 @@ static const variant_info_t joyeuse_info = {
     .brand = "Redmi",
     .device = "joyeuse",
     .model = "Redmi Note 9 Pro",
-    .build_description = "joyeuse_global-user 11 RKQ1.200826.002 V12.5.2.0.RJZMIXM release-keys",
-    .build_fingerprint = "Redmi/joyeuse_global/joyeuse:11/RKQ1.200826.002/V12.5.2.0.RJZMIXM:user/release-keys",
+    .build_fingerprint = "Redmi/joyeuse_global/joyeuse:11/RKQ1.200826.002/V12.5.5.0.RJZMIXM:user/release-keys",
 
     .nfc = true,
 };
