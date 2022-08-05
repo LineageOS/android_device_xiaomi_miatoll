@@ -9,7 +9,7 @@ $(call inherit-product, device/xiaomi/sm6250-common/atoll.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # NFC
 PRODUCT_PACKAGES += \
