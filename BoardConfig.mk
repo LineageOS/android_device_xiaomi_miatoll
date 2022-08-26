@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,9 +8,6 @@
 include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/miatoll
-
-# Display
-TARGET_SCREEN_DENSITY := 440
 
 # HIDL
 ODM_MANIFEST_SKUS += \
@@ -22,6 +19,8 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifest_nfc.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_miatoll
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_miatoll
 
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/xiaomi/miatoll_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll

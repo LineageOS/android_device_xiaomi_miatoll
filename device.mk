@@ -7,10 +7,6 @@
 # Inherit from sm6250-common
 $(call inherit-product, device/xiaomi/sm6250-common/atoll.mk)
 
-# AAPT
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
@@ -30,17 +26,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.nxp.mifare.xml
 
-# Overlays
-PRODUCT_PACKAGES += \
-    MiatollFrameworks \
-    MiatollSystemUI
-
 # Rootdir
 PRODUCT_PACKAGES += \
     init.device.rc
-
-# Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
