@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45b2bbc8_800699f1",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 342,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-31T07:31:24Z",
+      "side": 1,
+      "message": "don\u0027t you need displayId for this to work? this used for sfps animation position",
+      "revId": "b95ef71fd7433d470418a7d9c160db699717026d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
