@@ -14,8 +14,8 @@ static const variant_info_t curtanain_info = {
 
     .brand = "Redmi",
     .device = "curtana",
-    .model = "Redmi Note 9 Pro",
-    .build_fingerprint = "Redmi/curtana/curtana:11/RKQ1.200826.002/V12.5.5.0.RJWINXM:user/release-keys",
+    .model = "Redmi Note 10 Lite",
+    .build_fingerprint = "Redmi/curtana_in1/curtana:11/RKQ1.200826.002/V12.5.10.0.RJWINRF:user/release-keys",
 
     .nfc = false,
 };
