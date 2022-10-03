@@ -2,6 +2,9 @@
 # curtana: V13.0.2.0.SJWMIXM (CURTANAGlobal)
 # excalibur: V12.5.6.0.RJXINXM (EXCALIBURINGlobal)
 
+# Camera sensors (curtana) - from curtana
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgm2.bin|3dceb3819a7548533d6bb76abe25912e7861c438
+
 # Camera sensors (curtana & gram) - from curtana
 vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|4687d1d2eb8d36b5bed2ceafb197ef21d22bd97e
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|5ebb58c43e95d598f35a0808a0497f51affdcbd6
@@ -11,6 +14,10 @@ vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin|f85ac3c08b9a953adb567b98621c5
 vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|f85ac3c08b9a953adb567b98621c5a07aafcf5b8
 vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin|9c30347a96cc7eac11a74c061b5f4a4563202500
 vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin|172b8464fce69e429b06f483d60461bbe1c1b01c
+
+# Camera sensors (curtana & joyeuse)
+vendor/lib64/camera/com.qti.sensormodule.sunny_hi556.bin
+vendor/lib64/camera/com.qti.tuned.sunny_hi556.bin
 
 # Camera sensors (excalibur & joyeuse)
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin
