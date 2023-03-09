@@ -9,7 +9,6 @@ $(call inherit-product, device/xiaomi/sm6250-common/atoll.mk)
 
 # NFC
 PRODUCT_PACKAGES += \
-    NfcNci \
     Tag
 
 PRODUCT_PACKAGES += \
