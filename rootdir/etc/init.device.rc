@@ -1,3 +1,9 @@
+#
+# Copyright (C) 2023 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
     class hal
@@ -5,7 +11,8 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     group nfc
     disabled
 
-on init && property:ro.boot.product.hardware.sku=nfc
+on init && property:ro.boot.hwname=joyeuse
+    setprop ro.boot.product.hardware.sku nfc
     start vendor.nfc_hal_service
 
 on post-fs-data && property:ro.boot.product.hardware.sku=nfc
