@@ -9,6 +9,7 @@ $(call inherit-product, device/xiaomi/sm6250-common/atoll.mk)
 
 # NFC
 PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
     Tag
 
 PRODUCT_PACKAGES += \
