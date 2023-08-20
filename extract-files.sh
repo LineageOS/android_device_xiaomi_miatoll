@@ -17,4 +17,12 @@ export DEVICE=miatoll
 export DEVICE_COMMON=sm6250-common
 export VENDOR=xiaomi
 
+function blob_fixup() {
+    case "${1}" in
+        vendor/etc/libnfc-nci.conf)
+            sed -i "s/\/data\/nfc\/data\/vendor\/nfc/g" "${2}"
+            ;;
+    esac
+}
+
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

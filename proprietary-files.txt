@@ -34,5 +34,8 @@ vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|832fb5849953dd173de82589fbad
 # Camera sensors (joyeuse)
 vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
 
-# NFC
+# NFC - from joyeuse
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
 vendor/lib/libpn553_fw.so
+vendor/libnfc-nxp_RF.conf
