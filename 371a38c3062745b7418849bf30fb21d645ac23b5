@@ -16,6 +16,24 @@
       "message": "change to early-init",
       "revId": "371a38c3062745b7418849bf30fb21d645ac23b5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93a0a801_5134bb42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2023-08-20T13:15:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2da510e7_191072b2",
+      "revId": "371a38c3062745b7418849bf30fb21d645ac23b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
