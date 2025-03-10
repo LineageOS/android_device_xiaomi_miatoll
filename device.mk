@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.nxp.mifare.xml
 
+# Recovery
+PRODUCT_PACKAGES += \
+    init_xiaomi_miatoll.recovery
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.device.rc
