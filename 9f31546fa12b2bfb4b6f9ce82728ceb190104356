@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8749baaa_78e52000",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-03-28T22:45:33Z",
+      "side": 1,
+      "message": "not needed, apparently is auto included by the declaration of the init lib itself.",
+      "revId": "9f31546fa12b2bfb4b6f9ce82728ceb190104356",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
