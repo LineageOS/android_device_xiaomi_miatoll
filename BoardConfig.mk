@@ -9,7 +9,7 @@ include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/miatoll
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/xiaomi/miatoll_defconfig
+TARGET_KERNEL_CONFIG += vendor/xiaomi/miatoll.config
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll
